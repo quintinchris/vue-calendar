@@ -34,17 +34,17 @@ export default {
   padding: 5px;
 }
 .day-event .details {
-    display: block;
+  display: block;
 }
 
 input {
-    background: none;
-    border: 0;
-    border-bottom: 1px solid #FFF;
-    width: 100%;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #FFF;
+  width: 100%;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 </style>

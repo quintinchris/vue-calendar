@@ -27,11 +27,11 @@ export default {
     color: #FFF;
     border-left: 1px solid #8F8F8F;
     font-size: 12px;
-    cursor: pointer;
 }
 
 .day:hover {
     background-color: #292929;
+    cursor: pointer;
 }
 
 .day-banner {

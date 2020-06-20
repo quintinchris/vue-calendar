@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <div id='calendarEntry'></div>
     <router-view/>
   </div>
 </template>
 
 <script>
+import 'bulma/css/bulma.css';
+
 export default {
   name: 'App',
 };
 </script>
 
 <style>
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,4 +27,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>

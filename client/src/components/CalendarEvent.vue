@@ -11,6 +11,8 @@
 </template>
 
 <script>
+import { store } from '../store';
+
 export default {
   name: 'CalendarEvent',
   props: ['event', 'day'],

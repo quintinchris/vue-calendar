@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <div id='calendarEntry'></div>
     <router-view/>
   </div>
 </template>
@@ -27,6 +26,7 @@ export default {
 html, body {
   height: 100%;
   overflow-x: hidden;
+  background: #121212;
 }
 
 #app {

@@ -30,7 +30,7 @@ export default {
   margin-bottom: 5vh;
 }
 
-.column {
+#calendarWeek .column {
   padding: 0;
 }
 

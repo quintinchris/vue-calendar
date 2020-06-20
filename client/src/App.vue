@@ -7,9 +7,19 @@
 
 <script>
 import 'bulma/css/bulma.css';
+import CalendarWeek from './components/CalendarWeek';
+import CalendarEntry from './components/CalendarEntry';
+import CalendarDay from './components/CalendarDay';
+import CalendarEvent from './components/CalendarEvent';
 
 export default {
   name: 'App',
+  components: {
+    CalendarWeek,
+    CalendarEntry,
+    CalendarDay,
+    CalendarEvent,
+  },
 };
 </script>
 
